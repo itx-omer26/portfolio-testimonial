@@ -1,0 +1,90 @@
+/* ----------------------------- card 1 styling -------------------------------- */
+
+.card {
+width: 300px;
+height: 420px;
+background: black;
+border-radius: 15px;
+box-shadow: 0px 1px 10px 1px black;
+border: 1px solid wheat;
+}
+
+.card:hover{
+    transform: scale(1.02); 
+}
+
+.upper-container{
+    border-radius: 15px;
+    height: 100px;
+    background: linear-gradient(to left,#2d00f7,#ff0291)
+}
+
+.image-container img{
+    background: white;
+    width: 100px;
+    height:100px;
+    padding: 5px;
+    border-radius: 45%;
+    transform: translate(95px,45px);
+}
+
+img {
+    border: 2px solid #8e00b9;
+}
+
+.lower-container{
+    margin-top: 60px;
+    height: 240px;
+    border-radius: 15px;
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Titillium web',sen-serif;
+}
+  
+.lower-container h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+
+.lower-container h3{
+color: aliceblue;
+font-weight: 600;
+font-size: 1.5rem;
+}
+
+.lower-container h4{
+    color: #9719bd;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.lower-container p{
+    margin: 1rem;
+    padding:0 22px ;
+    color: aliceblue;
+    font-size: 0.9rem;
+    text-align: justify;
+    }
+
+    button{
+        margin: 1rem;
+        margin-top: 0;
+        color: #2f2d2e;
+        font: bold;
+        background-color: white;
+        border: 3px solid #8e00b9;
+        padding: 0.6rem;
+        border-radius: 6px;
+        transition-duration: 0.5s;
+        animation: ease-in-out;
+    }
+
+    button:hover{
+        background: linear-gradient(to left,#2d00f7,#ff0291);
+        transform: scale(1.2);
+        border:none;
+        color: aliceblue;
+    }
+
+    

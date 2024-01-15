@@ -1,0 +1,31 @@
+.testi {
+    background-color: black;
+    height: 100vh;
+
+}
+
+.testheading h1 {
+    /* color: white; */
+    color:  #ff0291;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.testheading h1:hover{
+    color: #2d00f7;
+}
+
+.testheading p {
+    color: white;
+    text-align: center;
+    margin: 42px;
+}
+
+.card-holder {
+    /* background-color: antiquewhite; */
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
